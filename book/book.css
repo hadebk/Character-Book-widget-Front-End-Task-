@@ -1,0 +1,128 @@
+*{
+    font-family: sans-serif;
+}
+#test-run, #btn_edit, #saveCharacter, #cancelCharacter{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    border-radius: 5px;
+}
+#btn_edit,#saveCharacter{
+    background-color: #222266;
+    width: 100px;
+}
+#cancelCharacter{
+    background-color: #999;
+    width: 100px;
+}
+#CharactersList {
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    width: 280px;
+}
+.item:hover{
+    background-color: #222266;
+    color: #fff;
+    cursor: pointer;
+}
+.item{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.item div {
+    flex-direction: column;
+}
+
+.item .image{
+    margin-right: 10px;
+}
+
+.item .text p{
+    margin: 0;
+}
+
+#SingleCharacter {
+    bottom: 0;
+    left: 300px;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.details_box{
+    margin-top: 20px;
+}
+.details_box .image img{
+    float: left;
+    margin-right: 20px;
+}
+
+.details_box .text{
+    float: left;
+    clear: right;
+}
+
+.details_box > p{
+    clear: both;
+    padding-top: 20px;
+    line-height: 1.7;
+}
+
+#SingleCharacter img {
+    float: left;
+    padding-right: 15px;
+}
+
+#SingleCharacter .name, #SingleCharacter [name="name"],
+#SingleCharacter .species, #SingleCharacter [name="species"],
+#SingleCharacter .description, #SingleCharacter [name="description"]  {
+    display: block;
+}
+
+#SingleCharacter .name, #SingleCharacter [name="name"] {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 1em 0 0.5em;
+}
+
+#SingleCharacter .species, #SingleCharacter [name="species"] {
+    font-size: 16px;
+    margin: 0.5em 0;
+}
+
+#SingleCharacter [name="description"], #SingleCharacter .description {
+    clear: both;
+    font-size: 14px;
+    margin: 2.5em 0 1em;
+}
+
+#SingleCharacter [name="description"] {
+    height: 100px;
+    width: 100%;
+}
+
+#SingleCharacter button + button {
+    margin-left: 10px;
+}
+
+
+
+
