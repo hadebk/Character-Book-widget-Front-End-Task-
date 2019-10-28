@@ -4,10 +4,10 @@ function Component() {
 
 Component.init = function init() {
     function construct(constructor, args) {
-        function ini() {
+        function F() {
             return constructor.apply(this, args)
         }
-        ini.prototype = constructor.prototype
+        F.prototype = constructor.prototype
         return new F()
     }
 
