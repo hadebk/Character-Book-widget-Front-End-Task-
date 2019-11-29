@@ -5,4 +5,4 @@ widget using the provided *Character Store* API.
 
 
 ## Demo
-https://hadebk.github.io/Front-End-Task/
+https://hadebk.github.io/Character-Book-widget-Front-End-Task-/
