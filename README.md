@@ -2,7 +2,6 @@
 
 As a new contributer to the 'Star Wars Database', design and implement a *Character Book*
 widget using the provided *Character Store* API.
--------------------------------------------------
 
 ## About
 - Apply Javascript OOP to talk to *Character Store* api to get or change data.
